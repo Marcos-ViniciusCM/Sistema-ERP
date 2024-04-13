@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/addUser.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+    <div class="nav-bar">
+        <h2>ERP SOFTWARE</h2>
+        <ul>
+            <li><a href="controller?acao=DashBoard"> <i class="fa-solid fa-house"></i>Dashboard</a></li>
+            <li><a href="controller?acao=ListaUsuarios"><i class="fa-solid fa-user"></i>Usuario</a></li>
+            <li><a href="controller?acao=ListaProduto"><i class="fa-solid fa-plus"></i>Produtos</a></li>
+            <li><a href="controller?acao=ListaPedido"><i class="fa-solid fa-cart-shopping"></i>Pedidos</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="form-usuario"  >
+    <form class="lista-usuario" action="addUser" method="POST">
+        <h3><i class="fa-solid fa-user-plus"></i></i>Adicionar Usuario</h3>
+        <div id="" >
+            <div class="nome-usuario">
+                <label for="nome" >Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome*">
+            </div>
+            <div class="email-usuario">
+                <label for="email" >Email</label>
+                <input type="email"   id="email" name="email" placeholder="example@email.com">
+
+            </div>
+            <div class="cargo-usuario">
+                <div class="input-cargo">
+                    <label for="cargo" >Cargo</label>
+                    <input type="text" id="cargo" name = "cargo" placeholder="Gerente" >
+                </div>
+
+                <input type="submit" class="input-adicionar">
+            </div>
+        </div>
+</form>
+</div>
+
+</body>
+</html>

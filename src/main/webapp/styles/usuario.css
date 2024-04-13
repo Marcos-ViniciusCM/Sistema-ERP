@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing:border-box;
+	font-family:'Poppins';
+	
+}
+body{
+    background-color: #E0E0E0;
+}
+.nav-bar{
+    background-color: #BBDEFB;;
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between; 
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.nav-bar ul{
+    flex: 1;
+    text-align: center; /* Centralizar os links horizontalmente */
+  
+}
+.nav-bar li{
+  display: inline-block;
+  list-style: none;
+  font-size:20px; 
+  margin: 20px;
+}
+
+.nav-bar i {
+    height:60px;
+	line-height:60px;
+	min-width:50px;
+	font-size:25px;
+}
+
+.nav-bar a{
+    color: #0000ee;
+    text-decoration: none;
+}
+
+.nav-bar h2{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.tabela-usuarios{
+    background-color: #E0E0E0;
+
+    
+}
+.tabela-usuarios img{
+  width: 30px;
+  border-radius: 10px;
+ 
+}
+.tabela-usuarios table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 40px;
+}
+
+.tabela-usuarios td,
+.tabela-usuarios tr{
+    padding: 20px;
+    margin: 10px;
+    background-color: #F0F0F0;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+
+.tabela-usuarios a {
+    padding: 20px;
+}

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing:border-box;
+	font-family:'Poppins';
+
+}
+body{
+    background-color: #E0E0E0;
+}
+.nav-bar{
+    background-color: #BBDEFB;;
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.nav-bar ul{
+    flex: 1;
+    text-align: center; /* Centralizar os links horizontalmente */
+
+}
+.nav-bar li{
+  display: inline-block;
+  list-style: none;
+  font-size:20px;
+  margin: 20px;
+}
+
+.nav-bar i {
+    height:60px;
+	line-height:60px;
+	min-width:50px;
+	font-size:25px;
+}
+
+.nav-bar a{
+    color: #0000ee;
+    text-decoration: none;
+}
+
+.nav-bar h2{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.form-usuario{
+    margin-top: 400px;
+    clear: both;
+    height: 600px;
+}
+.lista-usuario button{
+    font-size: 120%;
+    padding: 10px;
+    margin-bottom: 2px;
+    padding: 10px;
+    color: black;
+    border: none;
+  }
+.lista-usuario{
+	height:500px;
+	overflow-y: auto;
+	border-collapse: collapse;
+	table-layout: fixed;
+	border: 0px;
+	background-color: #F0F0F0;
+    margin: 40px;
+    height: 100%
+}
+
+
+.lista-usuario h3{
+    font-size: 150%;
+    margin: 30px;
+}
+
+.nome-usuario{
+   padding: 0px 10px 0px;
+
+
+}
+
+
+input{
+    width: 100%;
+    border: none;
+    height: 40px;
+    background-color: #E0E0E0;
+    border-bottom: 1px solid black;
+}
+
+.email-usuario{
+    padding: 0px 10px 0px;
+}
+
+.cargo-usuario{
+    padding: 0px 10px 0px;
+}
+
+.input-cargo{
+    margin-bottom: 25px;
+}
+
+.input-adicionar{
+    border: 1px solid #E0E0E0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+input[type=number] {
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
