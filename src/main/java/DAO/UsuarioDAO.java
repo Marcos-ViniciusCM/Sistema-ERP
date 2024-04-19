@@ -115,33 +115,6 @@ public class UsuarioDAO implements IUserDAO{
     }
 
 
-//
-//
-//        //listar produtos
-//
-//        public ArrayList<Produto> listarProdutos(){
-//            ArrayList<Produto> produtos = new ArrayList<>();
-//            String read = "select * from dbProduto";
-//
-//            try{
-//                Connection con = conectar();
-//                PreparedStatement pst = con.prepareStatement(read);
-//                ResultSet rs = pst.executeQuery();
-//                while(rs.next()) {
-//                    String nomeProduto = rs.getString(1);
-//                    float valorProduto = rs.getFloat(2);
-//                    int estoqueProduto = rs.getInt(3);
-//                    boolean estado = rs.getBoolean(4);
-//                    produtos.add(new Produto(nomeProduto,valorProduto,estoqueProduto,estado ));
-//                }
-//                con.close();
-//                return produtos;
-//
-//            }catch(Exception e ) {
-//                System.out.println(e);
-//                return null;
-//            }
-//        }
 
     }
 
